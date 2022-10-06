@@ -49,7 +49,7 @@ while True:
 
         #When the user guesses the number the loop ends and shows some msg
         print("Has guanyat!!")
-        print("El numero aleatori era el número " + str(numeroRandom))
+        print("El numero aleatori era el número " + str(numeroRandom) + " \n")
 
     elif selecio == "2" or selecio == "rang":
 
@@ -63,7 +63,7 @@ while True:
 
         #Ends the code if the selection is to exit
         break
-    
+
     else:
 
         #If the user fails to chose an available option it messages them
